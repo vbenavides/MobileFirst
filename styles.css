@@ -337,7 +337,7 @@ main {
   color: #808080;
 }
 .clock {
-  background-image: url("./../assets/icons/clock.svg");
+  background-image: url("./assets/icons/clock.svg");
 }
 
 .eye {
