@@ -142,6 +142,11 @@ main {
   line-height: 1.6rem;
   color: #757575;
 }
+.main-tables-container {
+  display: flex;
+  height: auto;
+  overflow: scroll;
+}
 .main-currency-table,
 .main-commissions-table {
   width: 70%;
@@ -366,7 +371,6 @@ main {
 .main-plans-container {
   width: 100%;
   min-width: 320px;
-  padding-bottom: 70px;
   text-align: center;
 }
 .plans--title {
@@ -392,7 +396,7 @@ main {
 }
 .plans-container--slider {
   display: flex;
-  height: 316px;
+  height: auto;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -400,15 +404,16 @@ main {
 .plans-container--card {
   position: relative;
   scroll-snap-align: center;
-  width: 70%;
-  min-width: 290px;
-  max-width: 300px;
+  width: 50%;
+  min-width: 190px;
+  max-width: 250px;
   height: 250px;
-  margin: 50px 10px 0;
+  margin: 20px 4px 20px;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  text-align: center;
 }
 .recommended {
   position: absolute;
